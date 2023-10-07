@@ -3,9 +3,9 @@ using UnityEngine;
 
 public abstract class Entity : MonoBehaviour
 {
-    [SerializeField] private int hp; 
-    [SerializeField] private int damage;
-    [SerializeField] private GameObject prefab;
-    [SerializeField] private string name;
+    [SerializeField] protected int hp; 
+    [SerializeField] protected int damage;
+    [SerializeField] protected GameObject prefab;
+    [SerializeField] protected string name;
 
 }

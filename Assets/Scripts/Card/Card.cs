@@ -6,7 +6,7 @@ namespace Card
     {
         public void Attack(Enemy.Enemy enemy)
         {
-            throw new System.NotImplementedException();
+            enemy.GetDamage(damage);
         }
     }
 }

@@ -6,7 +6,7 @@ namespace Card
     public class CardData : ScriptableObject
     {
         public string name;
-        public string ImagePath;
+        public GameObject image;
         public int damage;
         public int price;
         public int hp;

@@ -2,6 +2,6 @@
 {
     public interface IAttacking
     {
-        void Attack(Enemy.Enemy entity);
+        void Attack(Enemy.Enemy enemy);
     }
 }

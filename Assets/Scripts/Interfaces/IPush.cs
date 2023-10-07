@@ -1,6 +1,6 @@
-﻿namespace DefaultNamespace;
-
-public interface IPush
+﻿namespace Interfaces
 {
-    
+    public interface IPush
+    {
+    }
 }
